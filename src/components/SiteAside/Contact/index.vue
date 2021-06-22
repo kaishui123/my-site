@@ -1,32 +1,30 @@
 <template>
   <ul class="contact-container">
     <li>
-      <a target="_blank" :href="data.github">
+      <a target="_blank" href="https://github.com/kaishui123">
         <div class="icon">
           <Icon type="github" />
         </div>
-        <span>{{ data.githubName }}</span>
+        <span>KaiShui</span>
       </a>
     </li>
     <li>
-      <a :href="`mailto:${data.mail}`">
+      <a href="mailto:520131zcs@gmail.com ">
         <div class="icon">
           <Icon type="mail" />
         </div>
-        <span>{{ data.mail }}</span>
+        <span>520131zcs@gmail.com</span>
       </a>
     </li>
     <li>
-      <a
-        :href="`tencent://message/?Menu=yes&uin=${data.qq}&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45`"
-      >
+      <a>
         <div class="icon">
           <Icon type="qq" />
         </div>
-        <span>{{ data.qq }}</span>
+        <span>2012419819</span>
       </a>
       <div class="pop">
-        <img :src="data.qqQrCode" alt="" />
+        <img src="@/assets/qq.png" alt="" />
       </div>
     </li>
     <li>
@@ -34,10 +32,10 @@
         <div class="icon weixin">
           <Icon type="weixin" />
         </div>
-        <span>{{ data.weixin }}</span>
+        <span>kaishui</span>
       </a>
       <div class="pop">
-        <img :src="data.weixinQrCode" alt="" />
+        <img src="@/assets/wx.jpg" alt="" />
       </div>
     </li>
   </ul>
